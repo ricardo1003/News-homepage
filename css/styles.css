@@ -1,0 +1,14 @@
+body{
+    min-height: 1vh;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(36, 100%, 99%);
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

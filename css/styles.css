@@ -85,6 +85,9 @@ main> .image img{
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
 }
+.visually-hidden{
+    display: none;
+}
 .news{
     grid-row: span 2;
     padding: 1rem;
@@ -137,13 +140,15 @@ main> .image img{
     height: 100%;
     max-width: 100px;
 }
-.ads section h2{
+.ads section h3{
     margin: 0;
     font-size: 2em;
     color: hsl(5, 85%, 63%);
 }
-.ads section a{
+.ads section h4{
     margin: 1em 0;
+}
+.ads section a{
     color: hsl(240, 100%, 5%);
     font-weight: 800;
     text-decoration: none;

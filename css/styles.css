@@ -9,9 +9,10 @@ body{
 img{
     max-width: 100%;
 }
-
-header{
+header, main{
     padding: 1rem;
+}
+header{
     display: flex;
     justify-content: space-between;
 }
@@ -23,6 +24,22 @@ header nav{
 }
 header nav :nth-child(n){
     display: none;
+}
+
+.future h1{
+    margin: 1rem 0;
+    font-size: 2.75em;
+    line-height: .9em;
+}
+.future p{
+    color: hsl(236, 13%, 42%);
+}
+.future button{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 800;
+    letter-spacing: 5px;
 }
 
 

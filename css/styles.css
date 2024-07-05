@@ -66,5 +66,34 @@ header nav :nth-child(n){
     color: hsl(236, 13%, 42%);
 }
 
+.ads{
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ads article{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ads article picture{
+    height: 100%;
+    max-width: 100px;
+}
+.ads section h2{
+    margin: 0;
+    font-size: 2em;
+    color: hsl(5, 85%, 63%);
+}
+.ads section h3{
+    margin: 1em 0;
+    font-weight: 800;
+}
+.ads section p{
+    margin: 0;
+    color: hsl(236, 13%, 42%);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

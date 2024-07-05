@@ -36,12 +36,35 @@ header nav :nth-child(n){
 }
 .future button{
     padding: 1rem 2rem;
+    margin-bottom: 2rem;
     border: none;
     background-color: hsl(5, 85%, 63%);
     font-weight: 800;
     letter-spacing: 5px;
 }
-
+.news{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(240, 100%, 5%);
+}
+.news h2{
+    margin: 0;
+    color: hsl(35, 77%, 62%);
+    font-size: 2em;
+}
+.news article:nth-of-type(2){
+    border-top: 1px solid hsl(236, 13%, 42%);
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+.news h1{
+    font-size: 1.25em;
+    color: white;
+}
+.news p{
+    color: hsl(236, 13%, 42%);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

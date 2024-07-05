@@ -224,12 +224,12 @@ main> .image img{
         animation-name: headerBackground;
 }
     header nav.opened{
-        z-index: 3;
         height: 100%;
         width: 13rem;
         padding: 1rem;
         box-sizing: border-box;
         position: fixed;
+        z-index: 3;
         top: 0;
         flex-direction: column;
         background-color: hsl(36, 100%, 99%);
@@ -283,39 +283,39 @@ main> .image img{
 }
 @keyframes navCloseAnimation{
     0%{
-        background-color: hsl(36, 100%, 99%);
         height: 100vh;
         width: 13rem;
         display: flex;
+        padding: 1rem;
         flex-direction: column;
+        position: absolute;
+        box-sizing: border-box;
         z-index: 3;
         right: 0;
-        padding: 1rem;
-        box-sizing: border-box;
-        position: absolute;
         top: 0;
+        background-color: hsl(36, 100%, 99%);
     }
     99.99%{
-        background-color: hsl(36, 100%, 99%);
         height: 100vh;
         width: 13rem;
+        padding: 1rem;
         display: flex;
         flex-direction: column;
+        position: absolute;
+        box-sizing: border-box;
         z-index: 3;
         right: -13rem;
-        padding: 1rem;
-        box-sizing: border-box;
-        position: absolute;
         top: 0;
+        background-color: hsl(36, 100%, 99%);
     }
     100%{
-        z-index: 3;
         height: auto;
         width: auto;
+        padding: 0;
+        z-index: 3;
         position: relative;
         top: 0;
         right: 0;
-        padding: 0;
         background: none;
     }
 }

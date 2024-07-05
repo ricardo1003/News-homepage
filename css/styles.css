@@ -85,13 +85,9 @@ main> .image img{
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
 }
-.visually-hidden{
-    display: none;
-}
 .news{
     grid-row: span 2;
     padding: 1rem;
-    /* position: relative; */
     gap: 10px;
     background-color: hsl(240, 100%, 5%);
 }
@@ -130,6 +126,9 @@ main> .image img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+.ads .visually-hidden{
+    display: none;
 }
 .ads article{
     display: flex;
